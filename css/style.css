@@ -1,0 +1,574 @@
+/* start with love, om ganeshay namah, dedicated to my parents, my wife, love you all*/
+/* -- start Css for my theme ackworld --*/
+
+/* move special fonts to HTML head for better performance */
+
+/*-------  start section #our-project ----------*/
+
+@media screen and (max-width:800px){
+.nav{
+    text-align:center;
+}
+}
+@media screen and (min-width:800px){
+.nav{
+    float:right ;
+}
+}
+
+
+#our-project .recent-project-overlay h3{
+	color: #fff;
+}
+#our-project .recent-project-overlay p{
+	color: #fff;
+}
+
+#our-project  .col-md-3{
+	padding:0 !important;
+}
+.recent-project img{
+width:100%;
+
+}
+
+@media screen and (max-width:992px){
+.recent-project img{
+height: auto;
+}
+}
+@media screen and (min-width:992px){
+.recent-project img{
+height: 169px;
+}
+}
+
+#our-project .recent-project{
+position: relative;
+}
+#our-project .recent-project .overlay{
+display: none;
+}
+#our-project .recent-project:hover .overlay{
+position: absolute;
+display: block !important;
+cursor: pointer;
+background: rgba(0, 0, 0, 0.5);
+width: 100%;
+height:100%;
+
+top:0px;
+}
+/*-------   End section #our-project ----------*/
+
+/*-------   Start section #our-team ----------*/
+
+#our-team .fa-twitter{
+	background:#32ccfe;
+	color: white;
+	width:35px;
+	padding:10px 10px;
+  border-radius: 5px;
+	height:35px;
+	font-size: 16px;
+}
+
+#our-team .fa-linkedin{
+	background:#d6492f;
+	color: white;
+	width:35px;
+  border-radius: 5px;
+	padding:10px 10px;
+	height:35px;
+	font-size: 16px;
+}
+#our-team .fa-youtube{
+	background: #B31C00;
+	color: white;
+	border-radius: 5px;
+	width:35px;
+	padding:10px 10px;
+	height:35px;
+	font-size: 16px;
+}
+#our-team .fa-facebook{
+	background:#3a589b;
+	color: white;
+	width:35px;
+	padding:10px 10px;
+  border-radius: 5px;
+	height:35px;
+	font-size: 16px;
+}
+#our-team .team img{
+   width: 220px;
+   height:220px;
+   border-radius: 50%;
+    margin: 0 auto;
+   /* padding: 5px; */
+   border: 4px solid #C1C1C1;
+}
+
+/*-------   End section #our-team ----------*/
+
+/*-------   Start section #our-services ----------*/
+
+#services{
+    padding: 5% 0;
+background-color: #484848;
+}
+#services h2{
+color: #fff;
+}
+.services i:hover{
+-webkit-transform: scale(1.06);
+  -moz-transform: scale(1.06);
+  -ms-transform: scale(1.06);
+  -o-transform: scale(1.06);
+  transform: scale(1.06);
+  background:#FE3336;	
+  color: white;
+transition: 0.9s;
+transform: rotateY(180deg);
+cursor: pointer;
+}
+
+.services p{
+    font-size: 18px;  
+color: #fff;  
+}
+.services h3{ 
+    color: #fff;
+}
+
+.services i{
+        background: #fff;
+    color: #FE3336;
+    width: 80px;
+    border: 1px solid #FE3336;
+    font-size: 22px;
+    height: 80px;
+    padding: 29px 6px;
+    border-radius: 50%;
+}
+/*-------   End section #our-services ----------*/
+
+/*-------   Start section #our-contact-us ----------*/
+.contact-themename{
+    
+    font-style: italic;
+    font-family: cursive;
+    color: #C1C1C1;
+}
+
+
+@media screen and (max-width:800px){
+.contact-themename{
+    font-size: 30px;
+}
+}
+@media screen and (min-width:800px){
+.contact-themename{
+   font-size: 56px;
+}
+}
+
+.contact-social-icons li a{
+color: #3E3C3C;
+}
+.contact-middle{
+border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    min-height: 148px;
+}
+.contact-gettouch li{list-style: none;margin-bottom:10px;}
+.contact-gettouch li i{
+	margin-right:5px;
+}
+.contact-gettouch .fa-map-marker{
+    padding: 8px 14px;	
+}
+.contact-gettouch .fa-phone{
+    padding: 8px 13px;	
+}
+.contact-gettouch .fa-envelope-o{
+    padding: 8px 9px;	
+}
+
+.section-contactus{
+padding: 8% 0;
+font-size: 22px;
+}
+.section-contactus i{
+    border: 1px solid #716E6E;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 8px 7px;
+}
+/*-------   End section #contact-us ----------*/
+/*-------   Start section #about-us ----------*/
+.section-aboutus{
+background: #F1F1F1;
+   
+    padding: 3% 0;
+}
+#about-us .panel-heading .panel-title a{
+
+	font-size: 25px;
+}
+#about-us .about-left{
+
+    padding: 10px;
+    min-height: 348px;
+}
+#about-us .panel-heading{
+    color: #FFF;
+    background-color: #FF3437;
+    border-color: #ddd;
+}
+/*-------   End section #about-us ----------*/
+/*-------   Start header ----------*/
+header .header-content h2{
+color: #fff;
+
+}
+
+@media screen and (max-width:800px){
+header .header-content h2{
+    font-size: 1em;
+}
+}
+@media screen and (min-width:800px){
+header .header-content h2{
+    font-size: 2em;
+}
+}
+
+header{
+background:linear-gradient(rgba(39, 39, 39, 0.5), rgba(31, 31, 31, 0.5)), url(../images/bg1.jpg) no-repeat center;
+    background-size: 100% 100%;    
+	    
+}
+.header-content h1{
+   
+color: white;
+}
+
+@media screen and (max-width:800px){
+.header-content h1{
+    font-size: 1.5em;
+}
+}
+@media screen and (min-width:800px){
+.header-content h1{
+    font-size: 3em;
+}
+}
+
+
+.header-content p{
+font-size: 22px;
+color: white;
+}
+.header-content{
+    margin-top: 10%;
+}
+.header-content-left{
+margin-top: 20%;
+}
+header{
+height:100%;
+
+
+}
+.header .btn-lg {
+   font-size:28px;
+   border-color:#eeeeee;
+   padding:15px;
+   background-color:transparent;
+   color:#ffffff;
+}
+
+.header .btn-lg:hover {
+   background-color:#eeeeee;
+   color:#777777;
+}
+.header h1 {
+  font-size:110px;
+  -webkit-text-stroke: 1px rgba(0,0,0,0.1);
+  color:#431a6d;
+  color:#fff;
+  margin-left:-5px;
+  margin-bottom:5px;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.header .lead {
+  color:#eeeeee;
+  font-size:25px;
+}
+.header.animated{
+background: rgba(0, 0, 0, 0.5);
+}
+.header {
+width: 100%;
+      background: rgba(117, 117, 117, 0.5);
+    position: fixed !important;
+}
+
+/*-------   End header ----------*/
+/*-------   Start navigation ----------*/
+
+/*-------   End navigation ----------*/
+
+
+
+
+.duration5{
+-vendor-animation-duration: 2105s;
+  -vendor-animation-delay: 200s;
+  /*-vendor-animation-iteration-count: infinite;*/
+}
+
+
+.free-download{
+    background-color: #404040;
+    color: white;
+    padding: 2% 0;
+    margin-top: 10px;
+}
+
+
+.active {
+    color: #fff !important;
+    /*text-decoration: underline !important;*/
+        background: rgb(255, 52, 55) !important;
+	    border: 1px solid transparent !important;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -o-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus{
+    background-color: #045194;
+}
+.navbar-default .nav > li.active>a, .navbar-default .nav>li.active>a:focus{
+color: #f05f40!important;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav>li>a{
+color:white;
+    font-size: 20px;
+}
+.navbar-brand{
+        color: #fff !important;
+    /* font-weight: 800; */
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+@media screen and (max-width:1000px){
+.navbar-brand{
+    font-size: 23px;
+}
+}
+@media screen and (min-width:1000px){
+.navbar-brand{
+    font-size: 40px;
+}
+}
+
+
+.navbar-inverse{
+    
+    border-color: transparent !important;
+}
+
+hr{
+border-top: 2px solid rgb(254, 51, 54);
+}
+hr:before{
+content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -1px;
+    bottom: 0;
+    border-radius: 50%;
+    margin: auto;
+    width: 0.5em;
+    height: 0.5em;
+    border: 2px solid currentColor;
+    background: #ffffff;
+    box-shadow: 0 0 0 5px #ffffff;
+	
+}
+
+p{
+font-size: 18px;
+}
+body{
+font-family: philosopher !important;
+}
+/* -----use philosopher font ------*/
+/* cyrillic */
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Philosopher'), url(fonts/OttjxgcoEsufOGSINYBGLTUj_cnvWIuuBMVgbX098Mw.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* latin */
+@font-face {
+  font-family: 'Philosopher';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Philosopher'), url(fonts/OttjxgcoEsufOGSINYBGLY4P5ICox8Kq3LLUNMylGO4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+/* -----use philosopher font ------*/
+
+.navbar{
+margin-bottom:0;
+}
+
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300,400,600');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-family:'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+/* fix bs3 horizontal scrollbar bug */
+.row { margin: 0; padding: 0 }
+
+h1 {
+  font-size:45px; 
+}
+
+img.grayscale {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+.icon-bar {
+   background-color:#fff;
+}
+
+.scroll-down a, .scroll-top a {
+   color:#ffffff;
+}
+
+.scroll-down {
+   position:fixed;
+   bottom:20%;
+   right:0%;
+   color:#f9f9f9;
+}
+
+.scroll-top {
+  background-color:#33ee67;
+}
+
+
+
+.navbar a {
+  color:#fff;
+}
+
+.navbar-bold.affix {
+  background-color:#33ee67;
+}
+
+.navbar-bold {
+  background-color:#C56035;
+  font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+
+.navbar-bold li a:hover, .navbar-bold li.active {
+  background-color:#22dd56;
+}
+
+.vert {
+  vertical-align: middle;
+  width:100%;
+  padding-top:4%;
+}
+
+
+.blurb {
+  padding: 120px 0;
+  background-color:#fefefe;
+}
+
+.blurb .panel {
+  background-color:transparent;
+}
+
+.bright {
+  background: #7fbbda; 
+  color:#fff;
+}
+
+.featurette {
+  background: #545455;
+  padding: 50px 0;
+  color: #ffffff;
+}
+
+.featurette-item {
+  margin-bottom: 15px;
+}
+
+.featurette-item > i {
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  display: inline-block;
+  font-size: 56px;
+  width: 140px;
+  height: 140px;
+  line-height: 136px;
+  vertical-align: middle; 
+  text-align: center;
+}
+
+.featurette-item > i:hover {
+  font-size: 68px;
+}
+
+.callout {
+  color: #ffffff;
+  padding-top:7%;
+  height: 100%;
+  width: 100%;
+  background: ; 
+  
+}
+
+.gallery {
+  padding: 50px 0;
+}
+
+.call-to-action {
+  background: #eeeeee;
+  padding: 50px 0;
+}
+
+.call-to-action .btn {
+  margin: 10px;
+}
+
+footer {
+  padding: 100px 0;
+}
+
+/* -- end custom css for Bootstrap 3.x --*/
