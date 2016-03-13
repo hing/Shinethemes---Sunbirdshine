@@ -11,7 +11,7 @@ To use this theme, choose one of the following options to get started:
 
 ## Bugs and Issues
 
-Have a bug or an issue with this theme? [Open a new issue](https://github.com/shinethemes/Shinethemes---Sunbirdshine/issues) here on GitHub or leave a comment on the [template overview page at Start Bootstrap](http://shinethemes.com/free-bootstrap-theme-sunbirdshine).
+Have a bug or an issue with this theme? [Open a new issue](https://github.com/shinethemes/Shinethemes---Sunbirdshine/issues) here on GitHub or leave a comment on the [template overview page at Shinetheme](http://shinethemes.com/free-bootstrap-theme-sunbirdshine).
 
 ## Creator
 Shinethemes(http://shinethemes.com)
